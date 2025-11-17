@@ -8,6 +8,7 @@ Commarts_Club = {'AJ', 'Shino', 'Carl', 'Miguel'}
 display(f'Glee Club: {Glee_Club}', target='output')
 display(f'Commarts Club: {Commarts_Club}', target='output')
 
+display(Glee_Club | Commarts_Club, target='output') # Students involved in at least one club: Union
 display(Glee_Club & Commarts_Club, target='output') # Students who belong to both clubs: Intersection
 display(Glee_Club - Commarts_Club, target='output') # Students only in Glee: Difference
 display(Commarts_Club - Glee_Club, target='output') # Students only in Commarts: Difference, but switched Commarts Club as the first
